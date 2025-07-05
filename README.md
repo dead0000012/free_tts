@@ -1,5 +1,4 @@
 # free_tts
-TTS
 # 🗣️ free_tts
 
 **free_tts** is a free text-to-speech chat application where you can type anything, and the built-in TTS engine will instantly speak it out loud. No internet or microphone required — works entirely offline.
