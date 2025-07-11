@@ -1,7 +1,6 @@
-# free_tts
-# 🗣️ free_tts
+# 🗣️ Голосовой Чат на Python с Edge TTS
 
-**free_tts** is a free text-to-speech chat application where you can type anything, and the built-in TTS engine will instantly speak it out loud. No internet or microphone required — works entirely offline.
+Простой голосовой чат с графическим интерфейсом на `pygame`, озвучкой через `edge-tts`, возможностью вставки текста, переключением голосов и офлайн-режимом.
 
 ---
 
@@ -11,32 +10,23 @@
 
 ---
 
-## 📦 Features
+## 🚀 Возможности
 
-- Text-to-speech support for Russian and English
-- Automatically detects language based on input
-- Clean, minimal chat interface
-- Works offline — nothing is sent online
-- No microphone needed
-
----
-
-## 🧠 How to Use
-
-1. Run the `.exe` file
-2. Type your message
-3. Press `Enter`
-4. The app will read your text out loud
+- ✅ **Озвучка текста** через Microsoft Edge TTS (`edge-tts`)
+- 🔉 **Регулировка громкости и скорости речи**
+- 🌐 **Проверка подключения к интернету** (зелёный/красный индикатор)
+- 🧠 **Автоматическое определение языка** (русский/английский)
+- 🎙️ **Выбор голосов** (RU / EN / UZ)
+- 📋 **Вставка текста из буфера обмена**
+- 💾 **Оффлайн озвучка**, если нет интернета
+- ⚡ **Асинхронность и многопоточность**
+- ⌨️ **Управление с клавиатуры**
 
 ---
 
-## 🛠️ Dependencies
+## 🛠️ Установка
 
-- Python 3.11+
-- `pygame`
-- `pyttsx3`
-
-To create the `.exe` file:
+> ⚠️ Требуется Python 3.11+
 
 ```bash
-pyinstaller --onefile your_script.py
+pip install edge-tts pygame requests pyttsx3
