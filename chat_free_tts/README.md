@@ -6,7 +6,7 @@
 
 | Главное окно | Тёмная тема |
 |--------------|-------------|
-| ![main](resources/Light.png) | ![dark](resources/Dark.png) |
+| ![main](free_tts/Light.png) | ![dark](free_tts/Dark.png) |
 
 
 Подробно
